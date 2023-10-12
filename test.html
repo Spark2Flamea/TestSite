@@ -14,11 +14,48 @@ Scope  Basic HTML for testing.
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Gilda|Denk One|Source Code Pro">
 </head>
 <body>
-  <!-- Starting debug -->
-  <script>debug("Body loaded");</script>
-  <div>
-  <input class="container" id="truck" onClick="getTruck()">
-  </div>
+    <div class="toolbar bwhite">
+        <img id="toolbar-logo" class="toolbar-logo"
+            src="favico.png" onclick="" alt="Icon">
+        <h1 class="toolbar-heading">The RA Frankenstein Page</h1>
+        <img class="toolbar-menu-icon" src="home.png" 
+            onclick="changeClass()">
+    </div>
+    <div class="toolbar bwhite">
+        <div class="toolbar bwhite">
+        <img id="toolbar-logo" class="toolbar-logo" src="https://images.carriercms.com/image/upload/h_150,q_100,f_auto/v1576864320/common/logos/carrier-transicold-logo.png" onclick="changeClass()" alt="Icon">
+    </div>
+    
+    </div>
+    <div class="container" id="carrier-data">
+        <p >Carrier Reefer Unit Manual <a href="https://drive.google.com/file/d/1-9Vck0K8_d-1xT66Rnw5WEZrGz2rMsV4/view?usp=sharing">Click to open PDF</a>.</p>
+    </div>
+    <!--Top Navigation bar 
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="racheatsheet.html">RA Cheat Sheet</a>
+      <a href="contacts.html">Contacts</a>
+      <a class="active" href="systemcode.html">System Code</a>
+    </div>
+    </div> -->
+    <!--Sub Navigation bar
+    <div class="topnav">
+      <a href="systemcode.html">System Code</a>
+      <a class="active" href="wac.html">WAC Labor Codes</a>
+      <a href="rfr.html">Reason For Repair</a>
+      <a href="commoncodes.html">Common Codes</a>
+      <a href="commonshops.html">Common Shops</a>
+    </div>
+-->
+    <script>function changeClass() {
+  var x = document.getElementById("carrier-data");
+  if (x.style.display = "none"){
+    x.style.display = "block";
+  }else{
+    x.style.display = "none";
+  }
+};
+    </script>
 </body>
 <script>debug("End of page");</script>
 </html>
