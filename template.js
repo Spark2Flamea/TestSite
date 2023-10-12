@@ -14,4 +14,3 @@ function debug(x){
 
 
 //MAIN
-debug("program Started");

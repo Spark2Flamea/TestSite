@@ -6,17 +6,19 @@ Scope  Basic HTML for testing.
 <!DOCTYPE html>
 <html>
 <head>
-<title>Test Site</title>
-<link rel="stylesheet" href="test.css"> 
-<script src="test.js"></script>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />  
+    <title>Test Site</title>
+    <link rel="stylesheet" href="test.css">
+    <script src="test.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Gilda|Denk One|Source Code Pro">
 </head>
 <body>
-  <div class="container" id="main">
-  
-    
-    
+  <!-- Starting debug -->
+  <script>debug("Body loaded");</script>
+  <div>
+  <input class="container" id="truck" onClick="getTruck()">
   </div>
-  
-
 </body>
+<script>debug("End of page");</script>
 </html>

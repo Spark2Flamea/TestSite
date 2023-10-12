@@ -1,0 +1,224 @@
+
+/*
+Font families
+*/
+/*Standard Signature font
+THIS NEEDS TO ME IN THE HTML
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Gilda">
+*/
+
+.fubuntu{
+    font-family: 'Ubuntu', sans-serif;
+}
+/*Tiffany font family "Sterling" clone*/
+.fgilda{
+    font-family: 'Gilda', serif;
+}
+/*scary font*/
+.fscary{
+    font-family: 'Denk One', serif;
+}
+/*code font*/
+.fsourcecode{
+    font-family: 'Source Code Pro', serif;
+}
+
+
+/*
+DIVS
+*/
+
+.container{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+/*
+ _________________
+|COLORS___________\_____________________________________________________
+ 
+NOTES: 
+
+Colors are arranged for a Primary color of choice beyond that, you have accent colors of Grey, Black, White, Yellow, Green and Red.
+
+Most of these will make up the bulk of most applications. In the event more are
+needed, They can be added inline or notated as custom colors.
+
+tblack  Is the Font
+bblack  Is the Background
+boblack Is the Border
+bsblack Is the Box Shadow 
+
+tc1,bc1, boc1, bsc1 -3 are all custom colors for the site.
+
+*/
+
+/*
+Text Color Pallet
+*/
+
+.tc1 {
+    color: purple;
+}
+.tc2 {
+    color: blue;
+}
+.tc3 {
+    color: pink;
+}
+.tprimary {
+    color: #0ABAB5;
+}
+.tblack {
+    color: #000000;
+}
+.tdarkgrey {
+    color: #a69eb0;
+}
+.tgrey {
+    color: #dadae3;
+}
+.twhite {
+    color: #efeff2;
+}
+.tsuccess {
+    color: #32cd32;
+}
+.tcaution {
+    color: #a5ab02;
+}
+.terror {
+    color: #ff2f00;
+}
+
+/*
+Border Color Pallet
+*/
+
+.bc1 {
+    color: purple;
+}
+.bc2 {
+    color: blue;
+}
+.bc3 {
+    color: pink;
+}
+.bprimary {
+    border-color: #0ABAB5;
+}
+.bblack {
+    border-color: #000000;
+}
+.bdarkgrey {
+    border-color: #a69eb0;
+}
+.bgrey {
+    border-color: #dadae3;
+}
+.bwhite {
+    border-color: #efeff2;
+}
+.bsuccess {
+    border-color: #32cd32;
+}
+.bcaution {
+    border-color: #a5ab02;
+}
+.berror {
+    border-color: #ff2f00;
+}
+
+/*
+Background Color Pallet
+*/
+.boc1 {
+    color: purple;
+}
+.boc2 {
+    color: blue;
+}
+.boc3 {
+    color: pink;
+}
+.boprimary {
+    background-color: #0ABAB5;
+}
+.boblack {
+    background-color: #000000;
+}
+.bodarkgrey {
+    background-color: #a69eb0;
+}
+.bogrey {
+    background-color: #dadae3;
+}
+.bowhite {
+    background-color: #efeff2;
+}
+.bosuccess {
+    background-color: #32cd32;
+}
+.bocaution {
+    background-color: #a5ab02;
+}
+.bofail {
+    background-color: #ff2f00;
+}
+
+/*
+Box Shadow Color Pallet
+*/
+
+.bsc1 {
+    color: purple;
+}
+.bsc2 {
+    color: blue;
+}
+.bsc3 {
+    color: pink;
+}
+.bsprimary {
+    box-shadow: 15px 15px 8px #0ABAB5;
+    border: 1px solid;
+    padding: 10px;
+}
+.bsblack {
+    box-shadow: 15px 15px 8px #000000;
+    border: 1px solid;
+    padding: 10px;
+}
+.bsdarkgrey {
+    box-shadow: 15px 15px 8px #a69eb0;
+    border: 1px solid;
+    padding: 10px;
+}
+.bsgrey {
+    box-shadow: 15px 15px 8px #dadae3;
+    border: 1px solid;
+    padding: 10px;
+}
+.bswhite {
+    box-shadow: 15px 15px 8px #efeff2;
+    border: 1px solid;
+    padding: 10px;
+}
+.bssuccess {
+    box-shadow: 15px 15px 8px #32cd32;
+    border: 1px solid;
+    padding: 10px;
+}
+.bscaution {
+    box-shadow: 15px 15px 8px #a5ab02;
+    border: 1px solid;
+    padding: 10px;
+}
+.bserror {
+    box-shadow: 15px 15px 8px #ff2f00;
+    border: 1px solid;
+    padding: 10px;
+}
+
+/*END*/
